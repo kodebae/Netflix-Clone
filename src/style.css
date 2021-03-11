@@ -1,0 +1,132 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+/* applied to everything tells browser not to calculate default margin and padding*/
+* {
+    box-sizing: border-box;
+}
+/* add the image background and create shadow gradient affect, set background to take up 100% of page*/
+header{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../images/netflix-desktop-background.jpg');
+    height: 100vh;
+}
+/* target the navbar image and set the width and height and align logo in the middle vertically*/
+nav img {
+    width: 167px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+ nav a.logo {
+     display: inline-block;
+     line-height: 100px;
+     margin-left: 3%;
+ }
+
+ header nav {
+     height: 90px;
+ }
+
+ /* style the sign in 'button' link*/
+
+nav .signin {
+    color: #fff;
+    float: right;
+    background-color: #e50914;
+    line-height: normal;
+    margin-top: 30px;
+    margin-right: 3%;
+    padding: 10px 20px;
+    font-weight: 400;
+    border-radius: 3px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.pitch {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 2.2vw;
+    top: 35%;
+
+}
+.pitch h2{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pitch_title {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    font-weight: 525;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+
+.pitch_subtitle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 345;
+    font-size: .8em;
+    margin: 1%;
+}
+
+.pitch_tagline {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 350;
+    font-size: .6em;
+    margin: 1%;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+}
+.enter-email {
+    height: 55px;
+    width: 55%;
+}
+input .enter-email {
+    margin: 0;
+    padding: 0;
+}
+button  {
+    color: #fff;
+    background-color: #e50914;
+    width: 15%;
+    height: 55px;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 2%;
+}
