@@ -1,5 +1,7 @@
 # Netflix-Clone
 
+## Deployed site https://netflix-clone-kodebae.netlify.app
+
 ## Project Overview
 
 This is a Netflix landing page clone created with vanilla HTML and CSS.
