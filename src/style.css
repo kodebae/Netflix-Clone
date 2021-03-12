@@ -12,7 +12,7 @@ html, body {
 }
 /* add the image background and create shadow gradient affect, set background to take up 100% of page*/
 header{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../images/netflix-desktop-background.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('images/netflix-desktop-background.jpg');
     height: 100vh;
 }
 /* target the navbar image and set the width and height and align logo in the middle vertically*/
