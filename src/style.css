@@ -63,8 +63,8 @@ nav .signin {
 /******************h2***********************/
 /*target the h2*/
 .pitch h2 {
-    font-size: 55px;
-    font-weight: 525;
+    font-size: 50px;
+    font-weight: 510;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -85,8 +85,8 @@ nav .signin {
 /*******************title**********************/
 /*target the title*/
 .pitch-title {
-    font-size: 55px;
-    font-weight: 525;
+    font-size: 50px;
+    font-weight: 510;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -111,7 +111,7 @@ nav .signin {
     justify-content: center;
     align-content: center;
     font-weight: 345;
-    font-size: 35px;
+    font-size: 30px;
     margin: 1%;
 }
 
@@ -130,7 +130,7 @@ nav .signin {
     justify-content: center;
     align-content: center;
     font-weight: 350;
-    font-size: 15px;
+    font-size: 20px;
     margin: 1%;
 }
 
@@ -189,7 +189,7 @@ nav .signin {
     border-bottom: solid 2px orange;
     outline: none;
     resize: none;
-    height: 70px;
+    height: 65px;
     width: 545px;
     font-size: 16px;
     padding: 8px;
@@ -219,7 +219,7 @@ nav .signin {
     font-size: 24px;
     border-radius: 1px;
     border: none;
-    height: 70px;
+    height: 65px;
     width: 200px;
     padding: 8px;
     margin: 0;
