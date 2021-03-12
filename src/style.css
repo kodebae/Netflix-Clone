@@ -5,6 +5,7 @@ html, body {
     background-color: black;
     font-size: 16px;
 }
+
 /* applied to everything tells browser not to calculate default margin and padding*/
 * {
     box-sizing: border-box;
@@ -47,17 +48,23 @@ nav .signin {
     text-decoration: none;
 }
 
+
+/*style the section*/
 .pitch {
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    font-size: 2.2vw;
     top: 35%;
-
 }
-.pitch h2{
-    font-size: 1.5em;
+
+
+
+/******************h2***********************/
+/*target the h2*/
+.pitch h2 {
+    font-size: 55px;
+    font-weight: 525;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -66,67 +73,170 @@ nav .signin {
     margin-bottom: 0;
 }
 
-.pitch_title {
-    font-size: 1.5em;
+/*media query for h2*/
+@media only screen and (max-width: 600px) {
+    .pitch h2 {
+        font-size: 40px;
+    }
+}
+/******************h2***********************/
+
+
+/*******************title**********************/
+/*target the title*/
+.pitch-title {
+    font-size: 55px;
+    font-weight: 525;
     display: flex;
     justify-content: center;
     align-content: center;
     align-self: center;
-    font-weight: 525;
     margin-top: 10%;
     margin-bottom: 1%;
 }
 
-.pitch_subtitle {
+/*media query for title*/
+
+@media only screen and (max-width: 600px) {
+    .pitch-title {
+        font-size: 40px;
+    }
+}
+/*****************title************************/
+
+/*****************subtitle************************/
+/*target the subtitle*/
+.pitch-subtitle {
     display: flex;
     justify-content: center;
     align-content: center;
     font-weight: 345;
-    font-size: .8em;
+    font-size: 35px;
     margin: 1%;
 }
 
-.pitch_tagline {
+/*media query for subtitle*/
+@media only screen and (max-width: 600px) {
+    .pitch-subtitle {
+        font-size: 25px;
+    }
+}
+/*****************subtitle************************/
+
+/*******************tagline**********************/
+/*target the tagline*/
+.pitch-tagline {
     display: flex;
     justify-content: center;
     align-content: center;
     font-weight: 350;
-    font-size: .6em;
+    font-size: 15px;
     margin: 1%;
 }
 
-label {
+/*media query for tagline*/
+@media only screen and (max-width: 600px) {
+    .pitch-tagline {
+        font-size: 15px;
+        margin: 2%;
+    }
+}
+
+/******************tagline***********************/
+
+
+
+
+/*adjust the form*/
+.input-form {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    padding: 2%;
     margin: 0;
-    padding: 0;
-    width: 65%;
 }
-.form-group{
+
+
+/******************label section***********************/
+
+/*adjust the label section*/
+.get-label {
     display: flex;
-    justify-content: center;
-    align-items: start;
     margin: 0;
     padding: 0;
 }
+
+/*media query for stacking label and button*/
+@media only screen and (max-width: 600px) {
+    .get-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5%;
+    }
+}
+/******************label section***********************/
+
+
+
+/*****************email input************************/
+
+/*target the email input*/
 .enter-email {
-    height: 55px;
-    width: 55%;
-}
-input .enter-email {
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: solid 2px orange;
+    outline: none;
+    resize: none;
+    height: 70px;
+    width: 545px;
+    font-size: 16px;
+    padding: 8px;
     margin: 0;
-    padding: 0;
 }
-button  {
-    color: #fff;
+
+/*media query for email input*/
+@media only screen and (max-width: 600px) {
+    .enter-email {
+        height: 55px;
+        width: 465px;
+        font-size: 12px;
+    }
+}
+
+/****************email input************************/
+
+
+/*******************button**********************/
+/*target the button class*/
+.btn {
+    display: inline-block;
+    color: #ffffff;
+    cursor: pointer;
     background-color: #e50914;
-    width: 15%;
-    height: 55px;
-    font-weight: 400;
-    font-size: 25px;
-    padding: 0;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    border-radius: 1px;
     border: none;
-    border-radius: 2%;
+    height: 70px;
+    width: 200px;
+    padding: 8px;
+    margin: 0;
+}
+
+/*media query for email input*/
+@media only screen and (max-width: 600px) {
+    .btn {
+        height: 55px;
+        width: 165px;
+        margin: 8%;
+        font-size: 20px;
+    }
+}
+
+/*******************button**********************/
+
+nav .signin:hover, .btn:hover {
+    background: #f40612;
 }
